@@ -1,1 +1,25 @@
+.navbar-light {
+    background-color: #ee2677 !important;
+}
 
+.navbar-brand {
+    color:#eeebd0 !important;
+}
+.nav-link {
+    color: #eeebd0 !important;
+}
+
+.jumbotron {
+    background-color: #ee2677 !important;
+    height: 250px;;
+    
+}
+
+.btn-primary {
+    background-color: #eeebd0 !important;
+    color: black;
+    border: #ee2677;
+}
+.Work-Section {
+    font-display: center;
+}
