@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,600;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
@@ -37,12 +38,14 @@
     </div>
 
     <header class="jumbotron mt-0 bg-body-tertiary profileImage">
-      <div class="container-fluid py-5 jumboCopy">
+      <div class="container-fluid py-5 px-5  jumboCopy">
         <h1 class="display-6 px-2 ">Hi, I'm <span class="font-weight-bold">NADIA</span></h1>
         <h1 class="display-6 px-2 font-weight-bold"> Web Designer & Developer</h1>
         <p class="col-md-12 fs-4 px-2">(Ocassionally an aspiring DJ).</p>
-        <button class="btn btn-primary button_head btn-lg raise" href="#About-Me" type="button">Find Out More</button>
+        <button class="btn btn-primary button_head btn-lg raise">
+          <a href="#About-Me" type="button">Find Out More</button></a>
       </div>
+      
       <div class="col-lg-5 px-3 py-4">
         <div class="device-container">
           <img src="./Images/Nadia_Profile1_ppsq.jpg" width="325" height="325" class="img-fluid" alt="woman sitting on sofa facing camera">
@@ -51,7 +54,7 @@
 
     <section id="Work-Section" class="Work-Section">
       <p class="text-center fs-1 font-weight-bold">Things I've Created</p>
-    </section>
+    
 
     <div class="container-fluid">
       <div class="row">
@@ -101,73 +104,67 @@
             </div>
       </div>
     </div>
+  </section>
 
-      <section class="About-Me Skills">
+    <section class="About-Me Skills">
         <p class="text-center fs-1 font-weight-bold">More About Me</p>
-      </section>
+    
 
         <div class="container-fluid">
-              <div id="Skills" class="col-6 color-background2">
+              <div id="Skills" class="col-lg-8 col-md-6 col-sm-12 color-background">
               <h3 class="font-weight-bold text-center">What I can do</h3>
-              <p class="font-weight-med ml-3">My technical skills include:</p>
-              <p class="font-weight-med">HTML, CSS, Bootstrap,</p>
-              <p class="font-weight-med">JavaScrip, APIs, JQuery</p>
-              <p class="font-weight-med">JSON, AJAX<p>
-              <p class="font-weight-med">Node.js, ES6, React, Git & Github</p>
-              </div>
-              <div id="Skills" class="col-1 color-background2">
-              </div>
-              <div id="About-Me" class="col-6 color-background1 offset-md-6">
+              <p class="font-weight-med ml-3 text-center">My technical skills include:</p>
+              <p class="font-weight-med text-center">HTML, CSS, Bootstrap, JavaScrip, APIs, JQuery,</p>
+              <p class="font-weight-med text-center">JSON, AJAX<p>
+              <p class="font-weight-med text-center">Node.js, ES6, React, Git & Github</p>
+        </div>
+              
+        <div class="container-fluid">
+              <div id="About-Me" class="col-lg-8 col-md-6 col-sm-12 offset-md-4 color-background">
               <h3 class="font-weight-bold text-center">This is Me</h3>
               <p class="font-weight-med">Beautiful websites and apps deliver the best experiences for users, so I always aim to recreate the 'can't live without' feeling in your online presence.</p>
               <p class="font-weight-med">My eye for detail ensures my clients can offer the best overall user experiences to help their business grow.</p>
-              <p class="font-weight-med">When I'm not creatting amazing, scaleable, websites and apps, I'm usually practising my DJ skills at home.</p>
+              <p class="font-weight-med">When I'm not creatting beautiful, responsive websites and apps, I'm usually practising my DJ skills at home.</p>
               <p class="font-weight-med">Who knows, maybe one day you'll see me in front of a crowd! &#127911; &#127926;</p>
               <br>
               <p class="font-weight-bold fs-3 text-center">Let's Connect</p>
-       
-              <form>
-                <div class="form-group" id="form-group">
-                  <div class="form-group">
-                    <form action="mailto:hello@nadiafortune.co.uk" method="get">
-                      <label for="fname">Name:</label>
-                      <input type="text" id="fname" name="fname"><br><br>
-                      <label for="emailaddress">Your Email:</label>
-                      <input type="text" id="lname" name="lname"><br><br>
-                      <label for="comments">How Can I Help You?:</label>
-                      <input type="text" id="lname" name="lname"><br><br>
-                      <input type="submit" value="Submit">
-                    </form>
-                    
-          
-              
-              </div>
-          </div>      
-        </div>
-      </div>
+
+              <form class="form-group" id="form-group">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="text" id="lname" name="lastname" placeholder="Your email..">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+                
+                </form>
+                </div>
+        </div>      
+        </section>
+  
   
 
       <div class="card text-center">
-        <div class="card-header font-weight-bold">
+        <div class="card-footer font-weight-bold">
           Nadia Fortune - Web Designer & Front-End Developer
         </div>
         <div class="card-body">
-          <h5 class="card-title">Beautiful, Responsive, and Scalable Web Design and Front-End Development</h5>
+          <h5 class="card-title">Beautiful, Responsive, Scalable Web Design and Front-End Development</h5>
           <div class="contact-links">
             <ul class="contact-links">
               <li>
-              T: +4479519182411
+                &#9742; +4479519182411
           </li>
-          <li class="links">
-            E: <a href="mailto:hello@nadiafortune.co.uk">hello@nadiafortune.co.uk</a>
+          <li class="links raise">
+            <a href="mailto:hello@nadiafortune.co.uk"> 	&#9993; hello@nadiafortune.co.uk</a>
           </li>
-          <li class="links">
-            <a href=https://github.com/NadiaFortune>GitHub</a>
+          <li class="links raise">
+            <a href="https://github.com/NadiaFortune" class="fa">&#xf09b;</a>
           </li>
-
-
+          <li class="links raise">
+            <a href="https://www.linkedin.com/in/nadia-fortune/" class="fa">&#xf0e1;</a>
+          </li>
             </ul>
-            
+          </div>
+        </div>  
           
       </div>
 
