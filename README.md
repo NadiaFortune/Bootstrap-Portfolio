@@ -19,9 +19,9 @@ The use of Bootstrap has also minimised the need for more media queries than nec
 
 The following images show screenshots of the deployed page/:
 
-![Header](Images/Screenshot_2023_12-19_155946(1))
-![Body](Images/Screenshot_2023_12-19_155946(2))
-![Footer](Images/Screenshot_2023_12-19_155946(3))
+![](Images/Screenshot_2023_12-19_155946_(1))
+![](Images/Screenshot_2023_12-19_155946_(2))
+![](Images/Screenshot_2023_12-19_155946_(3))
 
 
 The deployed page can be found here: https://nadiafortune.github.io/Bootstrap-Portfolio/
@@ -32,7 +32,7 @@ N/A
 
 ## **Usage**
 
-The link to the previous portfolio challenge page can be found here: https://github.com/NadiaFortune/Boot_Camp_Challenge_2
+N/A
 
 ## **Credits**
 
