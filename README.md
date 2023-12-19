@@ -19,9 +19,9 @@ The use of Bootstrap has also minimised the need for more media queries than nec
 
 The following images show screenshots of the deployed page/:
 
-![](Images/Screenshot_2023_12-19_155946_(1))
-![](Images/Screenshot_2023_12-19_155946_(2))
-![](Images/Screenshot_2023_12-19_155946_(3))
+![](/Images/Screenshot_2023_12-19_155946_(1).png)
+![](Images/Screenshot_2023_12-19_155946_(2).png)
+![](Images/Screenshot_2023_12-19_155946_(3).png)
 
 
 The deployed page can be found here: https://nadiafortune.github.io/Bootstrap-Portfolio/
